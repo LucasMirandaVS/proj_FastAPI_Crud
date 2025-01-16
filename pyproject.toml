@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aula20-bootcamp"
+version = "0.1.0"
+description = ""
+authors = ["Lucas <lucas-mvs@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.37"
+pydantic = {extras = ["email"], version = "^2.10.5"}
+fastapi = "^0.115.6"
+psycopg2 = "^2.9.10"
+psycopg2-binary = "^2.9.10"
+pandas = "^2.2.3"
+streamlit = "^1.41.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
